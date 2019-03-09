@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Simon's game</title>
+</head>
+
+<body>
+
+  <h1 id="gameTitle">Simon's Game</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table>
+          <tr>
+            <td>
+              <button id="red" class="box red" type="button" name="button"></button>
+            </td>
+            <td>
+              <button id="yellow" class="box yellow" type="button" name="button"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button id="green" class="box green" type="button" name="button"></button>
+            </td>
+            <td>
+              <button id="blue" class="box blue" type="button" name="button"></button>
+            </td>
+          </tr>
+        </table>
+        <button id="startButton" type="button" class="btn btn-success btn-lg btn-block" name="button">Press to play!</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © ZekkerGames 2019.
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/game.js" type="text/javascript"></script>
+</body>
+
+</html>
